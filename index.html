@@ -22,10 +22,11 @@
     <header class="header">
       <nav class="nav">
         <a class="logo-link" href="./index.html"
-          ><span class="logo-web">Web</span><span class="logo-heder">Studio</span></a
+          ><span class="logo-web">Web</span
+          ><span class="logo-heder">Studio</span></a
         >
         <ul class="site-nav">
-          <li><a class="nav-link" href="./index.html">Студия</a></li>
+          <li><a class="nav-link current" href="./index.html">Студия</a></li>
           <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
           <li><a class="nav-link" href="">Контакты</a></li>
         </ul>
@@ -57,7 +58,9 @@
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <button class="heder-button" type="button">Заказать услугу</button>
+        <button class="heder-button" data-modal-open type="button">
+          Заказать услугу
+        </button>
       </section>
       <!-- Преимущества -->
       <section class="transcendency section">
@@ -68,7 +71,10 @@
               <use href="./images/sprite.svg#icon-Group-1"></use>
             </svg>
             <h3 class="list-title">Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <p>
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
           </li>
           <li>
             <svg>
@@ -76,7 +82,8 @@
             </svg>
             <h3 class="list-title">Пунктуальность</h3>
             <p>
-              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
             </p>
           </li>
           <li>
@@ -85,7 +92,8 @@
             </svg>
             <h3 class="list-title">Планирование</h3>
             <p>
-              Равным образом консультация с широким активом в значительной степени обуславливает.
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
             </p>
           </li>
           <li>
@@ -93,7 +101,10 @@
               <use href="./images/sprite.svg#icon-Group-4"></use>
             </svg>
             <h3 class="list-title">Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            <p>
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
           </li>
         </ul>
       </section>
@@ -102,28 +113,37 @@
         <h2 class="section-title">Чем мы занимаемся</h2>
         <ul>
           <li>
-            <img
-              src="./images/comp.jpg"
-              alt="Создание сайтов для десктоп"
-              width="370"
-              height="294"
-            />
+            <div class="work-directions">
+              <img
+                src="./images/comp.jpg"
+                alt="Десктопные приложения"
+                width="370"
+                height="294"
+              />
+              <h3 class="img-title"><span>Десктопные приложения</span></h3>
+            </div>
           </li>
           <li>
-            <img
-              src="./images/mobile.jpg"
-              alt="Создание сайтов для телефонов"
-              width="370"
-              height="294"
-            />
+            <div class="work-directions">
+              <img
+                src="./images/mobile.jpg"
+                alt="Мобильные приложения"
+                width="370"
+                height="294"
+              />
+              <h3 class="img-title"><span>Мобильные приложения</span></h3>
+            </div>
           </li>
           <li>
-            <img
-              src="./images/planshet.jpg"
-              alt="Создание сайтов для планшетов"
-              width="370"
-              height="294"
-            />
+            <div class="work-directions">
+              <img
+                src="./images/planshet.jpg"
+                alt="Дизайнерские решения"
+                width="370"
+                height="294"
+              />
+              <h3 class="img-title"><span>Дизайнерские решения</span></h3>
+            </div>
           </li>
         </ul>
       </section>
@@ -132,7 +152,12 @@
         <h2 class="section-title">Наша команда</h2>
         <ul>
           <li>
-            <img src="./images/igor.jpg" alt="Фото Игоря" width="270" height="260" />
+            <img
+              src="./images/igor.jpg"
+              alt="Фото Игоря"
+              width="270"
+              height="260"
+            />
             <h3 class="name-title">Игорь Демьяненко</h3>
             <p lang="en">Product Designer</p>
             <ul class="socnet">
@@ -149,24 +174,32 @@
               </li>
               <li>
                 <a href="https://uk-ua.facebook.com/"
-                  ><svg><use href="./images/sprite.svg#icon-facebook"></use></svg
+                  ><svg>
+                    <use href="./images/sprite.svg#icon-facebook"></use></svg
                 ></a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/"
-                  ><svg><use href="./images/sprite.svg#icon-linkedin"></use></svg
+                  ><svg>
+                    <use href="./images/sprite.svg#icon-linkedin"></use></svg
                 ></a>
               </li>
             </ul>
           </li>
           <li>
-            <img src="./images/olga.jpg" alt="Фото Ольги" width="270" height="260" />
+            <img
+              src="./images/olga.jpg"
+              alt="Фото Ольги"
+              width="270"
+              height="260"
+            />
             <h3 class="name-title">Ольга Репина</h3>
             <p lang="en">Frontend Developer</p>
             <ul class="socnet">
               <li>
                 <a href="https://www.instagram.com/"
-                  ><svg><use href="./images/sprite.svg#icon-instagram"></use></svg
+                  ><svg>
+                    <use href="./images/sprite.svg#icon-instagram"></use></svg
                 ></a>
               </li>
               <li>
@@ -176,24 +209,32 @@
               </li>
               <li>
                 <a href="https://uk-ua.facebook.com/"
-                  ><svg><use href="./images/sprite.svg#icon-facebook"></use></svg
+                  ><svg>
+                    <use href="./images/sprite.svg#icon-facebook"></use></svg
                 ></a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/"
-                  ><svg><use href="./images/sprite.svg#icon-linkedin"></use></svg
+                  ><svg>
+                    <use href="./images/sprite.svg#icon-linkedin"></use></svg
                 ></a>
               </li>
             </ul>
           </li>
           <li>
-            <img src="./images/mykola.jpg" alt="Фото Николая" width="270" height="260" />
+            <img
+              src="./images/mykola.jpg"
+              alt="Фото Николая"
+              width="270"
+              height="260"
+            />
             <h3 class="name-title">Николай Тарасов</h3>
             <p lang="en">Marketing</p>
             <ul class="socnet">
               <li>
                 <a href="https://www.instagram.com/"
-                  ><svg><use href="./images/sprite.svg#icon-instagram"></use></svg
+                  ><svg>
+                    <use href="./images/sprite.svg#icon-instagram"></use></svg
                 ></a>
               </li>
               <li>
@@ -203,24 +244,32 @@
               </li>
               <li>
                 <a href="https://uk-ua.facebook.com/"
-                  ><svg><use href="./images/sprite.svg#icon-facebook"></use></svg
+                  ><svg>
+                    <use href="./images/sprite.svg#icon-facebook"></use></svg
                 ></a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/"
-                  ><svg><use href="./images/sprite.svg#icon-linkedin"></use></svg
+                  ><svg>
+                    <use href="./images/sprite.svg#icon-linkedin"></use></svg
                 ></a>
               </li>
             </ul>
           </li>
           <li>
-            <img src="./images/misha.jpg" alt="Фото Михаила" width="270" height="260" />
+            <img
+              src="./images/misha.jpg"
+              alt="Фото Михаила"
+              width="270"
+              height="260"
+            />
             <h3 class="name-title">Михаил Ермаков</h3>
             <p lang="en">UI Designer</p>
             <ul class="socnet">
               <li>
                 <a href="https://www.instagram.com/"
-                  ><svg><use href="./images/sprite.svg#icon-instagram"></use></svg
+                  ><svg>
+                    <use href="./images/sprite.svg#icon-instagram"></use></svg
                 ></a>
               </li>
               <li>
@@ -230,12 +279,14 @@
               </li>
               <li>
                 <a href="https://uk-ua.facebook.com/"
-                  ><svg><use href="./images/sprite.svg#icon-facebook"></use></svg
+                  ><svg>
+                    <use href="./images/sprite.svg#icon-facebook"></use></svg
                 ></a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/"
-                  ><svg><use href="./images/sprite.svg#icon-linkedin"></use></svg
+                  ><svg>
+                    <use href="./images/sprite.svg#icon-linkedin"></use></svg
                 ></a>
               </li>
             </ul>
@@ -282,7 +333,8 @@
     <footer class="footer">
       <div>
         <a class="logo-link" href="./index.html"
-          ><span class="logo-web">Web</span><span class="logo-footer">Studio</span></a
+          ><span class="logo-web">Web</span
+          ><span class="logo-footer">Studio</span></a
         >
         <address class="address">
           <p>г. Киев, пр-т Леси Украинки, 26</p>
@@ -318,5 +370,17 @@
         </ul>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="window-modal">
+        <button class="button-modal" data-modal-close>
+          <svg>
+            <use href="./images/sprite.svg#icon-vector"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
